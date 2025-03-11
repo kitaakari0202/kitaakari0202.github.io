@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.image {
+    position: absolute;
+width: auto;
+    background-size: cover;
+    background-position: center center;
+    
+    animation: image-switch-animation 20s infinite;
+  }
+  .baner1{
+    background-image:url(../img/banner1.png);
+  }
+  .baner2{
+    background-image: url(../img/banner2.png);
+  }
+  @keyframes image-switch-animation {
+    0%{ opacity: 0;}
+    5%{ opacity: 1;}
+    30%{ opacity: 1;}
+    50%{opacity: 1;}
+    55%{opacity: 0;}
+    100%{ opacity: 0;}
+  }
+    
+  .image:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  .image:nth-of-type(2) {
+    animation-delay: 10s;
+  }
