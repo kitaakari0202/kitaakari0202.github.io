@@ -2,16 +2,21 @@
 
 .image {
     position: absolute;
-width: auto;
+    width: 49.5%;
+    height: 25%;
     background-size: cover;
     background-position: center center;
     
     animation: image-switch-animation 20s infinite;
   }
   .baner1{
+
+
     background-image:url(../img/banner1.png);
   }
   .baner2{
+
+
     background-image: url(../img/banner2.png);
   }
   @keyframes image-switch-animation {

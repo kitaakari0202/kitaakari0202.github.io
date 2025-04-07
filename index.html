@@ -13,7 +13,15 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" defer type="text/javascript"></script>
-
+<style>
+    /* 埋め込むウィンドウのサイズや位置を調整 */
+    iframe {
+        width: 80%;
+        height: 20%;
+        aspect-ratio: 2/1;
+        border: none;
+    }
+</style>
     </head>
     <body>
         <div id="navi">
@@ -29,14 +37,15 @@
        <div id="main">
        <div id="TOP">
             <div  id="rogo"><img src="img/rogo.png" alt="kitaakari" width="100%"></div>
-              <div class="linkicon">
-                <div class="icons"><a href="https://www.pixiv.net/users/40687929"><img src="img/pixiv.png"></a></div>
-                <div class="icons"><a href="https://www.pixiv.net/users/40687929"><img src="img/pixiv.png"></a></div>
-              </div>
+            <div class="linkicon">
+                <div class="icons"><a href="https://www.pixiv.net/users/40687929"><img src="img/pixiv.png" width="100%"></a></div>
+                 <div class="icons"><a href="https://www.pixiv.net/users/40687929"><img src="img/pixiv.png" width="100%"></a></div>
+               </div>
             <div class="container">
-             <div class="image baner1"></div>
-             <div class="image baner2"></div>
-            </div>
+                <!----><div class="image baner1"></div>
+                <div class="image baner2"></div>
+               </div>
+
        </div>
        <div id="irastration">
         <h5>illustration</h5>
@@ -54,10 +63,25 @@
         <img src="img/picup/6.png" alt="" ></a> 
         <a href="img/picup/7.png" data-lightbox="group1">
         <img src="img/picup/7.png" alt="" ></a> 
+       </div>
 
-       <div id="project"></div>
-       <div id="links"></div>
+       <div id="project">
+        <h5>project</h5>
+       <div id="mihonwindo">
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/Fia9CffhhtHCFnWia0wLRO/Lost-Historia?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/Fia9CffhhtHCFnWia0wLRO/Lost-Historia?page-id=0%3A1&node-id=2-3&p=f&viewport=75%2C418%2C0.15&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A3&embed-host=share" allowfullscreen></iframe>
+       </div>       
+    </div>
+       <div id="links">
+       <!--<iframe style="border:1p solid rgba(0,0,0,0.1);" width="800" height="450" src="https://www.pixiv.net/users/40687929" allowfullscreen></iframe>-->
+       <a href="potohu/poto top.html">portfolio</a><br>
+       <a href="https://www.pixiv.net/users/40687929">pixiv</a><br>
+       <a href="https://x.com/Pote_pote0202">x(旧Twitter)</a><br>
+       <a href="https://www.youtube.com/@kitakari0202/videos">YouTube</a>
+       </div>
        <div id="more"></div>
+       <a href="potohu/poto top.html"></a>
        </div>
     </div>
+    <div id="burannku"></div>
     </body>
