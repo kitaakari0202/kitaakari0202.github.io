@@ -24,6 +24,20 @@ display: flex;
  position: fixed;
 z-index: 100;
  }
+ #portfolio_navi{
+       top: 0;
+    padding: 0%;
+    margin: 0%;
+    width: 100%; 
+    height:5%; 
+    left: 0px;
+ background-color: rgba(149, 194, 234, 1);
+display: flex;
+ align-items: center;
+ flex-direction:row-reverse;
+ position: fixed;
+z-index: 100;
+ }
  #zyanp{
     padding-right: 5%;
     text-align: right;
