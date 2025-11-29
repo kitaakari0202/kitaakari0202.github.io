@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 .image {
+  padding-top: 25%;
     position: absolute;
-    width: 49.5%;
+    width: 90%;
+    margin-left: 4.5%;
     height: 25%;
     background-size: cover;
     background-position: center center;
