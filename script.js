@@ -1,16 +1,13 @@
+const galleryElement = document.getElementById("gallery");
 
-const images = [
-];
-for (let i = 20; i >= 1; i--) {
+const images = [];
+
+for (let i = 16; i >= 1; i--) {
     const number = String(i).padStart(2, "0");
     images.push(number + ".png");
 }
 
-
-const galleryElement = document.getElementById("gallery");
-
-images.forEach(image => {
-
+images.forEach((image, index) => {
     const tile = document.createElement("a");
     tile.className = "tile";
 
@@ -24,4 +21,3 @@ images.forEach(image => {
     tile.appendChild(img);
     galleryElement.appendChild(tile);
 });
-
