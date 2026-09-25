@@ -43,7 +43,6 @@ body {
     width: 100%;
     height: 100%;
 
-    /* 正方形に合わせて中央部分を切り抜く */
     object-fit: cover;
     object-position: center;
 }
