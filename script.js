@@ -40,17 +40,28 @@ fetch(apiUrl)
         // 一番数字が大きい画像を最新画像として表示
         // ========================================
 
-        const latest = images[0];
+const latest = images[0];
 
-        if (latestImageElement) {
+if (latestImageElement) {
 
-            const latestImg = document.createElement("img");
+    // クリック用リンク
+    const latestLink = document.createElement("a");
 
-            latestImg.src = latest.download_url;
-            latestImg.alt = latest.name;
+    latestLink.href = latest.download_url;
+    latestLink.target = "_blank";
 
-            latestImageElement.appendChild(latestImg);
-        }
+    // 最新画像
+    const latestImg = document.createElement("img");
+
+    latestImg.src = latest.download_url;
+    latestImg.alt = latest.name;
+
+    // 画像をリンクの中に入れる
+    latestLink.appendChild(latestImg);
+
+    // latestImageに追加
+    latestImageElement.appendChild(latestLink);
+}
 
 
         // ========================================
