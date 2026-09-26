@@ -75,3 +75,28 @@ margin-bottom: 0;
 #mihonwindo{
 width: 50%;
 }
+#newart{
+  
+    padding: 8%;
+    margin-top: 10%;
+    border-top: 5%;
+}
+#latestImage {
+    width: 120%;
+    text-align: center;
+    margin: 0 auto;
+}
+#latestImage img {
+    width: 100%;
+    height: auto;
+    
+}
+.latest{
+    text-align: center;
+}
+#newart{
+    width: 100%;
+}
+#newart iframe{
+    height: 150%;
+}
